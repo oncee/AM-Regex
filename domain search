@@ -1,4 +1,4 @@
-#grep for email addresses associated with a domain
+#grep for all email addresses associated with a domain
 grep -E -o "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b" aminno_member_email.dump | grep domainname\.com
 
 
